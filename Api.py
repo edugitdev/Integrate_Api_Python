@@ -26,7 +26,7 @@ resultados = cursor.fetchall()
 
 # Imprimir os resultados
 for item, visualizacoes in resultados:
-    print(f'Item: {item}, Visualizações: {visualizacoes}')
+    print(f'Item: {item}, Maior_Faturamento: {visualizacoes}')
 
 # Fechar a conexão com o banco de dados
 conexao.close()
